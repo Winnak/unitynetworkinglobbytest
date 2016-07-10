@@ -7,6 +7,8 @@ When [LobbyManager.StopHost](./Assets/LobbyManager.cs) is called by [OnDisconnec
 
 ![Duplication issue](./pictures/lobby-duplicate.gif)
 
+Am I supposed to Destroy the lobby object here, and why?
+
 ## UI elements misplaced on Canvas
 This issue appears when a new LobbyPlayer is spawned and then parented the slot. Notice how it works fine on the host, but is misplaced on the clients.
 
